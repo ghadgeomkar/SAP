@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
+    <!-- Front Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--  Navbar  -->
+
+    <div class="navbar">
+        <ul id="navList">
+            <li>Home</li>
+            <li>Products</li>
+            <li>SAP Services and Support</li>
+            <li>Industries</li>
+            <li>About Company</li>
+            <li>Contact</li>
+        </ul>
+        <i class="fas fa-bars" id="icon" onclick="showList()"></i>
+    </div>
+
+
+    <!--  HOME PAGE  -->
+    <div class="SectionName">
+        <h3>HOME</h3>
+    </div>
+
+
+
+    <div class="container">
+        <div class="homeSection mySwiper">
+
+            <div class="homeContent swiper-wrapper">
+                <div class="slider swiper-slide">
+                    <img src="./images/affordable-solution.jpg">
+                </div>
+                <div class="slider swiper-slide">
+                    <img src="./images/end-to-end-dev.jpg">
+                </div>
+                <div class="slider  swiper-slide">
+                    <img src="./images/from-idea-to-product.jpg">
+                </div>
+                <div class="slider  swiper-slide">
+                    <img src="./images/mobility-solution.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <div class="cyberCaves">
+        <img src="images/find-right-solution-for-your-industry.jpg">
+        <h3>Why Cyber Caves</h3>
+        <img src="images/Why-Cyber-Caves-[1].jpg">
+        <img src="images/Why-Cyber-Caves-[2].jpg">
+        <img src="images/what-are-you-waiting-for.jpg">
+    </div>
+
+
+    <!--  Products page -->
+
+    <div class="Products">
+        <h3>PRODUCTS</h3>
+        <ul>
+            <li>SAP Business One</li>
+            <li>SAP Customer Checkout (CCO)</li>
+        </ul>
+        <h4>SAP Business One</h4>
+        <img src="images/spa-business-one.jpg">
+    </div>
+
+    <div class="productBusiness ">
+        <h1>What is SAP Business One?</h1>
+        <p>A single, affordable solution to manage your entire small business – from accounting and financials,
+            purchasing, inventory, sales and customer relationships to reporting and analytics.</p>
+        <div class="businessInformation">
+            <img src="images/what-is-spa-business-one.jpg">
+            <div class="information">
+                <p>Gain greater control over your business or subsidiary with SAP Business One. Streamline key
+                    processes, gain greater insight into your business, and make decisions based on real-time
+                    information – so you can drive profitable growth.</p>
+                <ul>
+                    <li> On-premise or cloud deployment</li>
+                    <li> Integrated business intelligence</li>
+                    <li> Integration with the SAP HANA platform </li>
+                    <lI> Quick deployment</lI>
+                </ul>
+                <button>Read the Solution Overview </button>
+                <a href="https://www.youtube.com/watch?v=As4uDKSFw_I" target="_blank">
+                    <button>Watch the video</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="BusinessClients">
+        <img src="images/sap-business-one-future.jpg">
+        <div>
+            <h4> SAP Business One Web Client</h4>
+            <p> SAP Business One, Web client brings
+                you the best of all worlds. Based on SAP
+                Fiori design principles, it encapsulates the
+                core processes and business logic of the
+                SAP Business One solution.
+            </p>
+            <button onclick="show()">More</button>
+        </div>
+    </div>
+
+    <div id="showClient">
+        <div class="clients" id="web">
+            <h3> SAP Business One Web Client </h3>
+            <div class="webClients">
+                <p>Create, process, and update marketing documents and master data,
+                    including approval processes. With SAP Business One, Web client.
+                    you can create and track activities and benefit from sophisticated
+                    analytical charting capabilities and predefined analytics content.
+                    In addition, the client can be deployed either in the cloud or
+                    on-premise, including side-by-side use.
+                </p>
+                <iframe class="webClientVideo" src="https://www.youtube.com/embed/oJtiUHjbA1E?si=xoSug8ts0uCpPvFR"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="clients" id="mobile">
+            <h3> SAP Business One Sales App</h3>
+            <div class="mobileClients">
+                <p>Empower your entire sales organization to manage
+                    information on the move anytime, anywhere,
+                    and on any mobile device.
+
+                </p>
+                <iframe class="webClientVideo" src="https://www.youtube.com/embed/W2IFE3k_Ojg?si=A4-u3m7eRsY8x1J-"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="businessServise clients">
+        <h3> SAP Business One Service App </h3>
+        <div class="webClients">
+            <p>SAP Business One Service mobile app for iOS and Android
+                helps your service team manage their workload anywhere.
+                With the app, they can view customer service records,
+                ticket information, check stock, place an order and capture
+                a customer signature, for more effective customer service
+                management on the move.
+            </p>
+            <iframe class="webClientVideo" src="https://www.youtube.com/embed/W-JTrexTuCo?si=o5DLTqWNmnTj2W5r"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <img src="images/everything-you-need-for-you-SME.jpg">
+    </div>
+
+    <div class="financialManagement">
+
+        <div class="Management">
+            <h2>Financial management</h2>
+            <h4>Improve margins, reduce errors, and drive more profitable decision-making with a complete set of
+                tools
+                for
+                streamlined financial operations.</h4>
+            <button onclick="management(one)">More</button>
+            <div class="managementHide" id="one">
+                <h3>Accounting</h3>
+                <p>Automate the handling of all key accounting processes such as journal entries, accounts
+                    receivable
+                    and
+                    accounts payable.</p>
+                <h3>Controlling</h3>
+                <p>Manage cash flow, track fixed assets, control budgets, and monitor project costs with greater
+                    accuracy
+                    and efficiency.</p>
+                <h3>Fixed asset management</h3>
+                <p>Simplify the management of your fixed assets with a virtual function, eliminating the need for
+                    repetitive
+                    manual data entry.</p>
+                <h3>Banking and reconciliation</h3>
+                <p>Process reconciliations, bank statements, and payments faster through various methods including
+                    checks,
+                    cash, and bank transfers.</p>
+                <h3>Financial reporting and analysis</h3>
+                <p>Create standard or customized reports from real-time data to improve your business planning and
+                    audit
+                    review processes.</p>
+            </div>
+        </div>
+
+        <div class="Management">
+            <h2>Purchasing and Inventory Control</h2>
+            <h4>Optimize purchasing practices and control costs by managing the complete order-to-pay cycle
+                including
+                receipts, invoices, returns, and payments.</h4>
+            <button onclick="management(two)">More</button>
+            <div class="managementHide" id="two">
+                <h3>Procurement</h3>
+                <p>Streamline procurement processes such as requisition requests, purchase order and good receipts
+                    creation, and returns management. Improve audits by matching documents, viewing information
+                    trails,
+                    and handling multiple currencies. </p>
+                <h3>Master data management</h3>
+                <p>Centralize purchasing processes by managing detailed data in a user-friendly interface. View
+                    account
+                    balance and purchase analyses while maintaining detailed item purchasing information with price
+                    lists and tax information. </p>
+                <h3>Warehouse and accounting integration</h3>
+                <p>Benefit from real-time synchronization of goods receipts and inventory levels in the warehouse to
+                    perform purchase planning with ease and create an accounts payable invoice automatically from a
+                    purchase order or goods receipt.</p>
+                <h3>Accounts payable</h3>
+                <p>Lower costs and optimize your supply-chain relationships. Process accounts payable invoices,
+                    cancellations, and credit memos with a purchase order reference; plan material needs; and
+                    schedule
+                    purchases accordingly.</p>
+                <h3>Reporting</h3>
+                <p>Generate integrated reports with real-time data and display them in various report formats or
+                    dashboards to gain an overview of what matters most to your business, whether you’re using your
+                    desktop or your mobile device.</p>
+            </div>
+        </div>
+
+        <div class="Management">
+            <h2>Sales and Customer Management</h2>
+            <h4>Oversee the entire sales process and customer lifecycle more efficiently – from initial contact to
+                final
+                sale, after-sales service, and support.</h4>
+            <button onclick="management(three)">More</button>
+            <div class="managementHide" id="three">
+                <h3>Sales and opportunity management</h3>
+                <p>Track all sales opportunities and lead activities throughout the sales cycle, from the first
+                    contact
+                    to deal closing. </p>
+                <h3>Marketing campaign management</h3>
+                <p>Create, manage, and analyze marketing activities to turn prospects into customers and grow sales
+                    and
+                    profitability. </p>
+                <h3>Customer management</h3>
+                <p>Store all critical customer data in one place by synchronizing and managing customer contacts
+                    stored
+                    in Microsoft Outlook.</p>
+                <h3>Service management</h3>
+                <p>Craft and manage warranty contracts and service agreements efficiently, and enter and respond to
+                    service calls quickly.</p>
+                <h3>Mobile sales</h3>
+                <p>Empower your entire sales organization to manage information on the move anytime, anywhere, and
+                    on any mobile device.</p>
+            </div>
+        </div>
+
+        <div class="Management">
+            <h2>Accurate Real-Time Reporting & Analytics</h2>
+            <button onclick="management(four)">More</button>
+            <div class="managementHide" id="four">
+                <h3>Dashboards and reports</h3>
+                <p>Design intuitive, interactive dashboards and reports that answer your most pressing questions.
+                    Managers can also track revenues, costs, and cash flow accurately; assess performance; and take
+                    swift corrective action. </p>
+                <h3>Real-time analytics</h3>
+                <p>Access information faster and evaluate it with powerful analytics in real-time. With SAP Business
+                    One
+                    you can simplify data searching and the on-demand creation of standard or ad hoc reports. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordionSection">
+        <h2>Frequently asked questions about SAP Business One</h2>
+        <button class="accordion">What is SAP Business One used for?</button>
+        <div class="panel">
+            <p>SAP Business One is an affordable solution to manage small and midsize companies: from accounting and
+                financials, purchasing, inventory, sales and customer relationships (CRM) to reporting and analytics.
+            </p>
+        </div>
+
+        <button class="accordion">What is the difference between SAP ERP and SAP Business One?</button>
+        <div class="panel">
+            <p>SAP Business One is designed for small and midsize business (SMB) enterprises, while SAP S/4HANA Cloud
+                and SAP ERP are designed for organizations of all sizes.</p>
+        </div>
+
+        <button class="accordion">Is SAP Business One customizable?</button>
+        <div class="panel">
+            <p>Because every business is different, SAP Business One is designed with flexibility in mind. Whether it’s
+                deployed on-premise or in the cloud, you can access SAP Business One at anytime, anywhere using any
+                mobile device. As your business grows, you can customize and extend SAP Business One to meet your
+                evolving needs.</p>
+        </div>
+    </div>
+
+
+    <!-- SAP Services and Support -->
+
+    <div class="ServicesAndSupport">
+        <h2>SAP SERVICES AND SUPPORT</h2>
+        <ul>
+            <li>SAP Implementation</li>
+            <li> SAP Upgrade</li>
+            <li> SAP Migration</li>
+            <li> SAP Support Services</li>
+            <li> SAP Customized Addon Development</li>
+            <li> Networking & IT Services</li>
+        </ul>
+
+        <div class="Services">
+            <h3>SAP Implementation Services</h3>
+            <p>Cyber Caves implements and integrates SAP. SAP easily allows it to integrate itself with any business
+                model and allows it to be efficient in that specific environment. This helps reduce the work pressure on
+                employees so that they can focus on the real task at hand instead of dealing with redundant data. With
+                SAP, a business can best be lined up in a way to helps the customers understand and manage their
+                business better.</p>
+            <div class="serviceList">
+                <ul>
+                    <li>SAP Business One HANA Implementation</li>
+                    <li> SAP Business One Mobile App</li>
+                    <li> SAP Business One Sales App</li>
+                    <li> SAP Business One Web Client</li>
+                </ul>
+                <ul>
+                    <li>SAP Business One SQL Implementation</li>
+                    <li>SAP Business One Service APP</li>
+                    <li>SAP Business One Browser Access</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Services">
+            <h3>SAP Upgrade Services</h3>
+            <p>As the market is evolving and growing, SAP must be updated regularly to support newer versions, patches,
+                and add-ons. Doing this will make the process of growing your enterprise into a working business much
+                easier as it will help the customer stay on pace with the newer features that SAP will add in the
+                future. Depending upon the technical infrastructure and business requirement, Cyber Caves enables the
+                customers to migrate to new releases or technologies that SAP releases.</p>
+            <div class="serviceList">
+                <ul>
+                    <li>SAP Business One 9.3 to 10</li>
+                    <li> SAP Business One SQL 2014 to 2019 or Higher Versions</li>
+                </ul>
+                <ul>
+                    <li>SAP Business One 9.2 to 10</li>
+                    <li>SAP Business One SQL 2012 to 2019 Higher Versions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Services">
+            <h3>SAP Migration Services</h3>
+            <p>Customers using a traditional SAP SQL database or any third-party data platform on-premise or in the
+                cloud
+                can benefit from the SAP Database Migration program, which simplifies and accelerates the implementation
+                of
+                SAP HANA.</p>
+            <div class="serviceList">
+                <ul>
+                    <li>SAP Business One SQL to HANA</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Services">
+            <h3>SAP Support Services</h3>
+            <p>At Cyber Caves, we understand the critical role SAP Business One plays in the success of your business.
+                We understand that effective support is essential for maximizing the potential of your SAP Business One
+                solution. Our dedicated support services are designed to empower you, ensuring seamless operations and
+                maximum efficiency.</p>
+            <div class="serviceList">
+                <ul>
+                    <li>10+ Years of experience</li>
+                    <li>Help Desk Portal Access</li>
+                </ul>
+                <ul>
+                    <li>Dedicated Certified SAP Consultants </li>
+                    <li> High Priority Response Time </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="supportOffering">
+        <h2>Our SAP Business One Support Offering</h2>
+        <div class="allOffers">
+            <div class="offers">
+                <h3>Dedicated Support SAP Consultants</h3>
+                <p>Our team consists of SAP-certified consultants. You’ll be assigned a dedicated consultant who
+                    understands the intricacies of your business.</p>
+
+                <h3>System Updates & Patch Management</h3>
+                <p>Our support services include system updates and patch management to keep your software environment
+                    secure and optimized for performance.</p>
+            </div>
+
+            <div class="offers">
+                <h3>Training & Knowledge Transfer</h3>
+                <p>Our support services extend beyond issue resolution to include comprehensive training and knowledge
+                    transfer sessions.</p>
+
+                <h3>Customized Support Packages</h3>
+                <p>We offer customizable support packages to suit your requirements & and budget. Whether you need a
+                    basic or a full-scale support and maintenance plan.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offersBenefits">
+        <h2>Benefits</h2>
+        <div class="allBenefits">
+            <div class="Benefits">
+                <h3>Proven Expertise</h3>
+                <p>As a SAP Gold Partner, we bring years of experience in SAP Business One and are aware of your
+                    business challenges, allowing us to solve them quickly.</p>
+
+                <h3>Continuous Improvement</h3>
+                <p>We stay ahead of industry trends and SAP updates to provide you with cutting-edge solutions. Our
+                    commitment to continuous improvement means you always have access to the latest SAP innovations.</p>
+            </div>
+
+            <div class="Benefits">
+                <h3>Client-Centric Approach</h3>
+                <p>Your success is our priority. We work closely with you to understand your business goals and
+                    challenges, ensuring our support services align with your objectives.</p>
+
+                <h3>Rapid Response</h3>
+                <p>In the fast-paced business environment, downtime isn’t an option. Our commitment to a rapid response
+                    ensures that your issues are acknowledged promptly, and our consultants work diligently to resolve
+                    them efficiently.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="customizedDevelopment">
+        <h2>SAP Customized Addon Development</h2>
+        <img src="images/add-ons-for-sap-business-one.jpg">
+        <div class="development">
+            <h3>WHAT ARE ADD-ONS?</h3>
+            <p>SAP meets the base requirements of all industries & the companies operating within the said industries.
+                However, the difference in requirements between any two given businesses is stark. And that's where
+                Add-ons, certified for SAP, come into play. Add-ons are created according to the needs and requirements
+                of a particular industry or business, as and when required. They are a great way to expand the
+                functionalities of your SAP Solution</p>
+            <h3>ADD-ONS BY CYBER CAVES</h3>
+            <p>Chances are, the kind of add-on you want to customize your solution for the industry you're in, we've got
+                it. Below are some of our Add-ons that can help you turbocharge your SAP Business One and give you a
+                competitive edge over your rivals. </p>
+        </div>
+        <img src="images/industrial-solution-for-end-end-implementation.jpg">
+    </div>
+
+    <div class="networking">
+        <h2>Networking & IT Services</h2>
+        <img src="images/reinventing-the-foundation.jpg">
+        <div class="overview">
+            <h4>Overview</h4>
+            <p>Cyber Caves helps enterprises become agile, safe, service-focused and enables them to deliver unified
+                experiences to the customers. IT infrastructure must keep pace with digital diversity and new approaches
+                while remaining connected with legacy investments, cost pressure, and increasing customer expectations
+                in this fast-changing digital world.</p>
+            <p>Cyber Caves is capable of providing the support and expertise to ensure a complete transformation into
+                the next era. With our unique IT infrastructure outsourcing approach, we understand our customers'
+                applications and infrastructure, delivering results exceeding expectations.</p>
+        </div>
+        <div class="ourServiceOfferings">
+            <h1> Our Service Offerings</h1>
+            <div class="serviceOfferings">
+                <div class="offersBox">
+                    <h3>Server Support </h3>
+                </div>
+                <div class="offersBox">
+                    <h3>Firewall Support </h3>
+                </div>
+                <div class="offersBox">
+                    <h3>Desktop support </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="industries">
+        <h2>INDUSTRIES</h2>
+        <img src="images/industry-solution-from-sap.jpg">
+        <div class="industriesList">
+            <ul>
+                <li>Aerospace and Defense</li>
+                <li>Agribusiness</li>
+                <li>Automotive</li>
+                <li>Banking</li>
+                <li>Building Materials</li>
+                <li>Cargo, Transportation, and Logistics</li>
+                <li>Chemicals</li>
+                <li>Consumer Products</li>
+                <li>Defense and Security</li>
+                <li>Engineering, Construction, and Operations</li>
+                <li>Fashion</li>
+            </ul>
+            <ul>
+                <li>Government</li>
+                <li>Healthcare</li>
+                <li>High Tech</li>
+                <li>Higher Education and Research</li>
+                <li>Industrial Manufacturing</li>
+                <li>Insurance</li>
+                <li>Life Sciences</li>
+                <li>Media and Entertainment</li>
+                <li>Mill Products</li>
+                <li>Mining</li>
+                <li>Oil, Gas, and Energy</li>
+            </ul>
+            <ul>
+                <li>Passenger Travel and Leisure</li>
+                <li>Professional Services</li>
+                <li>Real Estate</li>
+                <li>Retail</li>
+                <li>Sports</li>
+                <li>Telecommunications</li>
+                <li>Utilities</li>
+                <li>Wholesale Distribution</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Swiper JS-->
+    <script src="./JS/swiper-bundle.min.js"></script>
+    <!-- javascript-->
+    <script src="./JS/index.js"></script>
+
+</body>
+
+
+
+</html>
