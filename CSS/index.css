@@ -28,6 +28,10 @@ body {
     cursor: pointer;
 }
 
+.navbar ul a {
+    text-decoration: none;
+}
+
 .container {
     /* background-color: antiquewhite;  */
     width: 100%;
@@ -482,12 +486,16 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
 }
-.industriesList ul li{
+
+.industriesList ul li {
     list-style: none;
     cursor: pointer;
     margin: 15px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 @media (max-width:1450px) {
     .offersBox {
