@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!-- Front Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  Navbar  -->
+
+    <div class="navbar">
+        <ul id="navList">
+            <a href="/index.html">
+                <li>Home</li>
+            </a>
+            <a href="/Products.html">
+                <li>Products</li>
+            </a>
+            <a href="/Services&Support.html">
+                <li>SAP Services and Support</li>
+            </a>
+            <a href="/Industries.html">
+                <li>Industries</li>
+            </a>
+            <a href="/AboutCompany.html">
+                <li>About Company</li>
+            </a>
+            <a href="/Contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <i class="fas fa-bars" id="icon" onclick="showList()"></i>
+    </div>
+
+
+    <div class="industries" id="Industries">
+        <h2>INDUSTRIES</h2>
+        <img src="images/industry-solution-from-sap.jpg">
+        <div class="industriesList">
+            <ul>
+                <li>Aerospace and Defense</li>
+                <li>Agribusiness</li>
+                <li>Automotive</li>
+                <li>Banking</li>
+                <li>Building Materials</li>
+                <li>Cargo, Transportation, and Logistics</li>
+                <li>Chemicals</li>
+                <li>Consumer Products</li>
+                <li>Defense and Security</li>
+                <li>Engineering, Construction, and Operations</li>
+                <li>Fashion</li>
+            </ul>
+            <ul>
+                <li>Government</li>
+                <li>Healthcare</li>
+                <li>High Tech</li>
+                <li>Higher Education and Research</li>
+                <li>Industrial Manufacturing</li>
+                <li>Insurance</li>
+                <li>Life Sciences</li>
+                <li>Media and Entertainment</li>
+                <li>Mill Products</li>
+                <li>Mining</li>
+                <li>Oil, Gas, and Energy</li>
+            </ul>
+            <ul>
+                <li>Passenger Travel and Leisure</li>
+                <li>Professional Services</li>
+                <li>Real Estate</li>
+                <li>Retail</li>
+                <li>Sports</li>
+                <li>Telecommunications</li>
+                <li>Utilities</li>
+                <li>Wholesale Distribution</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // navbar  
+        function showList() {
+            navList.classList.toggle('showNav');
+        }
+
+    </script>
+
+</body>
+
+</html>
